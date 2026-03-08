@@ -1,10 +1,5 @@
-        <DOCTYPE html>
-        <html>
 
-        <head>
-                <title>Arithmetic calculations</title>
-    <script>
-                              function onClickAdd() {
+                        function onClickAdd() {
                                 debugger;
                                 var value1 = parseInt(document.getElementById("txtValue1").value);
                                 var value2 = parseInt(document.getElementById("txtValue2").value);
@@ -32,23 +27,4 @@
                                  result= value1/value2;
                                   document.getElementById("pResult").innerHTML= result
                         }
-                </script>
-        </head>
-
-        <body>
-              <label>value1</label>
-                <input type="number" id="txtValue1" /><br>
-                <label>vaule2</label>
-                <input type="number" id="txtValue2" />
-                <br>
-                <button id="buttonAdd" onclick="onClickAdd()">Add</button>
-                <button id="buttonSub" onclick="onClickSub()">Subtract</button>
-                <button id="buttonMultify" onclick="onClicKMultify()">Multiply</button>
-                <button id="buttonDiv" onclick="onClickDiv()">Divide</button>
-                <br>
-                <p id="pResult"></p>
-
-
-        </body>
-
-        </html>
+    
