@@ -7,5 +7,9 @@ function onClickCheck() {
      else 
     {
         document.getElementById("pResult").innerHTML = "Result: Odd Number";
-    }   
+    } 
+    else if (value % 2 != 0)
+    {
+        document.getElementById("pResult").innerHTML = "Result: Odd Number";
+    }    
 }
