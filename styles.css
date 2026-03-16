@@ -14,3 +14,20 @@
     
         
 }
+
+.averagebox{
+    background-color: rgb(190, 30, 121);
+    height: 80px;
+    width: 265px;
+    margin-left: 154px;
+        padding :30px;
+    padding-bottom: 25px;
+    text-align: center;
+    justify-content: center;
+    padding-left:10px ;
+    margin: 160px;
+    padding-left: 20px;   
+    padding-right: 20px;  
+    
+        
+}
