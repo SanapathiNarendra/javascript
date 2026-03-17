@@ -22,7 +22,7 @@
     border-radius: 10px;
     padding-left: 10px;
     margin-right: 10px;
-
+    
     
 }
 .box{
@@ -33,4 +33,5 @@
     margin-bottom: 10px;
     margin-top:10px ;
     margin-right: 10px;
+    justify-content: center;
 }
