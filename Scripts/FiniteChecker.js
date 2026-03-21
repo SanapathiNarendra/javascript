@@ -7,5 +7,5 @@ function OnclickFiniteChecker(){
     var divisionResult=1/numericvalue;
 
     var result = isFinite(divisionResult);
-    
+    document.getElementById("result")
 }
