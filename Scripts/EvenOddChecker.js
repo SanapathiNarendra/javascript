@@ -8,5 +8,7 @@ function onClickCheck() {
     {
         document.getElementById("pResult").innerHTML = "Result: Odd Number";
     } 
-   
+ if(condition){
+    logiv
+ }  
 }
