@@ -7,8 +7,5 @@ function OnclickFiniteChecker(){
     var divisionResult=1/numericvalue;
 
     var result = isFinite(divisionResult);
-    document.getElementById("result").innerHTML
-    
-
-   document.getElementsById("")
+    document.getElementById("result").innerHTML="Is the Finite value" + result ;
 }
