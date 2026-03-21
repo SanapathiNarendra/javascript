@@ -1,6 +1,9 @@
 function OnclickFiniteChecker(){
    debugger;
-   var value=
+   var inputfirstvalue=document.getElementById("txtfirstValue").Value;
+   var inputsecondvalue=document.getElementById("txtsecondValue").Value;
+   var numericvalue=parseInt(inputfirstvalue);
+    
 
    document.getElementsById("")
 }
