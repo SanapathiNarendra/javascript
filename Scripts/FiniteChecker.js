@@ -8,5 +8,5 @@ function OnclickFiniteChecker(){
 
     var result = isFinite(divisionResult);
     document.getElementById("pResult").innerHTML =result;
-
+    
 }
