@@ -1,6 +1,6 @@
-function OnclickSquareChecker(){
+function onclickMathPower(){
  debugger;
-  var mathValue=document.getElementById("txtmathValue").value;
-  var mathPower=document.getElementById("txtmathPower").value;
-    document.getElementById("pResult").innerHTML=Math.pow(InputValue);
+  var Value=document.getElementById("txtmathValue").value;
+  var Power=document.getElementById("txtmathPower").value;
+    document.getElementById("pResult").innerHTML=Math.pow(Power , Value);
 }
