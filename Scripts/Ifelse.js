@@ -3,8 +3,11 @@ function onclickIfElseValue(){
    var inputNumber=Number(document.getElementById("txtIfelse").value);
     if ((inputNumber %3 == 0) && (inputNumber %7 == 0)){
          document.getElementById("pResult").innerHTML=inputNumber+100;
-         
+    }
+    else  {
+     document.getElementById("pResult").innerHTML= inputNumber+200 
+}     
 
-}
+
 
 }
