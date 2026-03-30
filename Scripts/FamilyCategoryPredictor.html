@@ -1,16 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FamilyCategoryPredictor</title>
+    <title>Family Category Predictor</title>
     <script src="FamilyCategoryPredictor.js"></script>
-
 </head>
 <body>
- <h2>FamilyCategoryPredictor</h2>
-  <label for="txtFamilyCategory"></label> 
-  <input id="txtFamilyCategory" type="radio">
-  <button id="btnFamilyCategory" onclick="onClickFamilyCategory()" >CheckNumber</button> 
+    <h3>Family Category Predictor </h3>
+    
+    <p id="pResult"></p>
+
+    <script>
+        document.getElementById('familyForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            let total = 0;
+            const radios = document.querySelectorAll('input[type="radio"]:checked');
+            
+            radios.forEach(radio => {
+                total += parseInt(radio.value);
+            });
+            
+            // let category = total >= 300000 ? 'Rich' : total >= 150000 ? 'Middle Class' : 'Poor';
+            // document.getElementById('pResult').textContent = `Total: ${total} - Category: ${category}`;
+        });
+    </script>
 </body>
+
 </html>
