@@ -2,11 +2,11 @@
  function onClickCheckNumber(){
     debugger;
     var number=parseInt(document.getElementById("txtNumber").value);
-    if(number>0){
+    if(number>=0){
         document.getElementById("pResult").innerHTML="The number is Positive.";
         console.log("The number is positive. ");
     }
-     if(Number<0){
+     if(Number<=0){
         document.getElementById("pResult").innerHTML="The number is negative.";
         console.log("The number is negative. ");
 
