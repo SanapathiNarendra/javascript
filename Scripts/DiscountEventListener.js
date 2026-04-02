@@ -1,4 +1,4 @@
- document.getElementById("").addEventListener("click",function() {
+ document.getElementById("btnSellingPrice").addEventListener("click",function() {
 
 debugger;
     price=(document.getElementById ("txtprice").value);
