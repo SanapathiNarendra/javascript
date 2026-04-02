@@ -10,7 +10,7 @@ document.getElementById("btnNumber").addEventListener("Click",function(){
   Number("10") + "<br>" +
   Number("10.33") + "<br>" +
   Number("10 6") + "<br>" +  
-  Number("10 years") + "<br>" +  
+  Number("10 years") + "<br>" +   
   Number("years 10") + "<br>" +
   Number (true) +  "<br>"  + 
   Number (false);
