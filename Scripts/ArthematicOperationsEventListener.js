@@ -3,7 +3,7 @@
          document.getElementById("buttonMultiply").addEventListener("click",function() {
          document.getElementById("buttonDiv").addEventListener("click",function() {              
          debugger;              
-                       
+                    
                               
                                 var value1 = parseInt(document.getElementById("txtValue1").value);
                                 var value2 = parseInt(document.getElementById("txtValue2").value);
