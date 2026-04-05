@@ -1,5 +1,5 @@
-function onClickCalculate() {
-    var value1 = parseInt(document.getElementById("txtValue1").value);
+document.getElementById("")
+var value1 = parseInt(document.getElementById("txtValue1").value);
     var value2 = parseInt(document.getElementById("txtValue2").value);
     var value3 = parseInt(document.getElementById("txtValue3").value);
 
