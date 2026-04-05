@@ -5,4 +5,5 @@ function onClickCalculate() {
 
     var average = (value1 + value2 + value3) / 3;
     document.getElementById("pResult").innerHTML = "Average: " + average.toFixed(2);
+    
 }
