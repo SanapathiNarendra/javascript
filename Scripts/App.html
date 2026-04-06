@@ -188,7 +188,7 @@ elif page == "Analysis":
     
     user_input = st.text_area("Enter text for analysis:", "", height=150)
 
-    if st.button("Analyze")        if user_input:
+        if user_input:
             # Preprocess, vectorize, and predict on user input
             cleaned_input = preprocess_text(user_input)
             input_vector = tfidf.transform([cleaned_input]).toarray()
