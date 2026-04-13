@@ -6,5 +6,6 @@ function OnclickReplace() {
 
     var outputString=stringSentence.replace(stringWord,stringWordReplace);
     document.getElementById("pResult").innerHTML = outputString;
+    
 
 }
