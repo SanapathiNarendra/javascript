@@ -4,5 +4,4 @@ function OnClickRepeat() {
     var Search = stringName.repeat(3);
 
     document.getElementById("pResult").innerHTML = Search;
-    
 }
