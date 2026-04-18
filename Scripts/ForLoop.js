@@ -10,6 +10,6 @@ for (var i=0; i<numbers.length; i++)
   content=content + "<p>"+numbers[i] +"<p></br>"
  }
 }
+});
  document.getElementById("divResult").innerHTML=content;
 
-});
