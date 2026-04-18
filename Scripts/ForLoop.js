@@ -8,7 +8,7 @@ for (var i=0; i<numbers.length; i++)
     {
    if (numbers[i]%5==0);{
   content=content + "<p>"+numbers[i] +"<p></br>"
-  }
+ }
 }
  document.getElementById("divResult").innerHTML=content;
 
