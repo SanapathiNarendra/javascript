@@ -4,4 +4,5 @@ function OnclickStringStartsWith() {
     var search = document.getElementById("txtSearch").value;
   document.getElementById("pResult").innerHTML =stringName.startsWith(search);    
 
+  
 }

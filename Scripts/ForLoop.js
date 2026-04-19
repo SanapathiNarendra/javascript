@@ -1,15 +1,15 @@
-numbers=[10,20,30,40,50,60]
-document.getElementById("btnForLoop").addEventListener("click",function(){
- debugger;
+var ColorNames = ["Black", "Red", "Green", "Blue", "Yellow","Gray"];
 
+document.getElementById("btnForLoop").addEventListener("click", function () {
+    debugger;
 
- var content="";
-for (var i=0; i<numbers.length; i++)
-    {
-   if (numbers[i]%5==0);{
-  content=content + "<p>"+numbers[i] +"<p></br>"
- }
-}
+    var content = "";
+
+    for (var i = 0; i < ColorNames.length; i++) {
+      {
+            content = content + "<p>"+ (i+1) +" " + ColorNames[i] + "</p>";
+        }
+    }
+
+    document.getElementById("divResult").innerHTML = content;
 });
- document.getElementById("divResult").innerHTML=content;
-

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="t" placeholder="enter word">
+<button onclick="add()">Submit</button>
+
+<ul id="list"></ul>
+
+<script>
+let arr = [];
+
+function add() {
+  let v = t.value;
+  arr.push(v);
+  arr.sort();
+
+  list.innerHTML = "";
+  arr.forEach(w => {
+    list.innerHTML += "<li>" + w + "</li>";
+  });
+
+  t.value = "";
+}
+</script>
+
+</body>
+</html>
