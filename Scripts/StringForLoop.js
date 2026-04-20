@@ -5,6 +5,7 @@ document.getElementById("btnFind").addEventListener("click", function () {
 
     var ContentA = "";
     var ContentOfWord = "";
+    var ContentB="";
     var input = document.getElementById("txtWord").value;
 
     if (input.toLowerCase().startsWith("a")) {
@@ -20,6 +21,7 @@ document.getElementById("btnFind").addEventListener("click", function () {
     for (var i = 0; i < wordsOfA.length; i++) {
 
         ContentA = ContentA + "<p>" + (i + 1) + "" + wordsOfA[i] + "<p><br>"
+
 
     }
 
