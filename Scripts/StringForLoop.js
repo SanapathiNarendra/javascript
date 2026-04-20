@@ -12,8 +12,8 @@ document.getElementById("btnFind").addEventListener("click", function () {
         wordsOfA.push(input);
 
     }
+    
     else {
-
         words.push(input);
 
     }
@@ -25,7 +25,6 @@ document.getElementById("btnFind").addEventListener("click", function () {
     for (var j = 0; j < words.length; j++) {
 
         ContentOfWord = ContentOfWord + "<p>" + (j + 1) + "" + words[j] + "<p><br>"
-
     }
     document.getElementById("ResultA").innerHTML = ContentA;
     document.getElementById("ResultO").innerHTML = ContentOfWord;
