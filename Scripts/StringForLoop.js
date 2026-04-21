@@ -29,6 +29,12 @@ document.getElementById("btnFind").addEventListener("click", function () {
 
     ContentOfWord = ContentOfWord + "<p>" + (j + 1) + "" + words[j] + "<p><br>"
     }
+
+    for (var k = 0; j < words.length; k++) {
+
+    ContentOfWord = ContentOfWord + "<p>" + (j + 1) + "" + words[j] + "<p><br>"
+    }
+
     document.getElementById("ResultA").innerHTML = ContentA;
     document.getElementById("ResultO").innerHTML = ContentOfWord;
 });
