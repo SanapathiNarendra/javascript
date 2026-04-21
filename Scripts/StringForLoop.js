@@ -32,7 +32,7 @@ document.getElementById("btnFind").addEventListener("click", function () {
 
     for (var k = 0; j < words.length; k++) {
 
-    ContentB = ContentB + "<p>" + (j + 1) + "" + words[k] + "<p><br>"
+    ContentB = ContentB + "<p>" + (k + 1) + "" + words[k] + "<p><br>"
     }
 
     document.getElementById("ResultA").innerHTML = ContentA;
