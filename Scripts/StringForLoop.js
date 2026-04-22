@@ -9,6 +9,7 @@ document.getElementById("btnFind").addEventListener("click", function () {
     var ContentOfWord = "";
     var ContentB = "";
     var ContentC = "";
+    var ContentD = "";
     var input = document.getElementById("txtWord").value;
 
     if (input.toLowerCase().startsWith("a")) {
