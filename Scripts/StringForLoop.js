@@ -41,13 +41,14 @@ document.getElementById("btnFind").addEventListener("click", function () {
         ContentC = ContentC + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
     }
        for (var l = 0; l < words.length; l++) {
-        ContentC = ContentC + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
+        ContentD = ContentD + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
     }
 
     document.getElementById("ResultA").innerHTML = ContentA;
     document.getElementById("ResultO").innerHTML = ContentOfWord;
     document.getElementById("ResultB").innerHTML = ContentB;
     document.getElementById("ResultC").innerHTML = ContentC;
+    document.getElementById("ResultD").innerHTML = ContentD;
     
 
 });
