@@ -14,7 +14,6 @@ document.getElementById("btnFind").addEventListener("click", function () {
 
     var input = document.getElementById("txtWord").value;
     
-
     if (input.toLowerCase().startsWith("a")) {
 
         wordsOfA.push(input);
@@ -43,9 +42,14 @@ document.getElementById("btnFind").addEventListener("click", function () {
     for (var l = 0; l < words.length; l++) {
         ContentC = ContentC + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
     }
-       for (var l = 0; l < words.length; l++) {
+       for (var M = 0; l < words.length; M++) {
         ContentD = ContentD + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
     }
+
+    for (var l = 0; l < words.length; l++) {
+        ContentD = ContentD + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
+    }
+
 
     document.getElementById("ResultA").innerHTML = ContentA;
     document.getElementById("ResultO").innerHTML = ContentOfWord;
