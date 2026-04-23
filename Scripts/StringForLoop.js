@@ -42,12 +42,12 @@ document.getElementById("btnFind").addEventListener("click", function () {
     for (var l = 0; l < words.length; l++) {
         ContentC = ContentC + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
     }
-       for (var M = 0; l < words.length; M++) {
-        ContentD = ContentD + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
+       for (var M = 0; M < words.length; M++) {
+        ContentD = ContentD + "<p>" + (M + 1) + "" + words[M] + "<p><br>"
     }
 
-    for (var l = 0; l < words.length; l++) {
-        ContentD = ContentD + "<p>" + (l + 1) + "" + words[l] + "<p><br>"
+    for (var N = 0; N < words.length; Nl++) {
+        ContentD = ContentD + "<p>" + (N + 1) + "" + words[N] + "<p><br>"
     }
 
 
