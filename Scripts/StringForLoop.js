@@ -46,6 +46,7 @@ document.getElementById("btnFind").addEventListener("click", function () {
         ContentD = ContentD + "<p>" + (M + 1) + "" + words[M] + "<p><br>"
     }
 
+    
     for (var N = 0; N < words.length; Nl++) {
         ContentD = ContentD + "<p>" + (N + 1) + "" + words[N] + "<p><br>"
     }
@@ -58,4 +59,5 @@ document.getElementById("btnFind").addEventListener("click", function () {
     document.getElementById("ResultD").innerHTML = ContentD;
     
 
+    
 });
