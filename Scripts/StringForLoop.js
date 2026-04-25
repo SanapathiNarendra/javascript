@@ -57,7 +57,8 @@ document.getElementById("btnFind").addEventListener("click", function () {
     document.getElementById("ResultB").innerHTML = ContentB;
     document.getElementById("ResultC").innerHTML = ContentC;
     document.getElementById("ResultD").innerHTML = ContentD;
-    
+    document.getElementById("ResultD").innerHTML = ContentD;
+
 
     
 });
