@@ -2,6 +2,7 @@
 document.getElementById("btnArrayToArray").addEventListener("click", function () {
     debugger;
     var indexInput=document.getElementById("txtInputIndex").value;
-    document.getElementById("pResult").innerHTML=andGate[indexInput];
+    var secondIndex=document.getElementById("txtSecondIndex").value;
+    document.getElementById("pResult").innerHTML=andGate[indexInput] [secondIndex];
 
 });
