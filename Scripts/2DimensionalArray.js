@@ -4,18 +4,20 @@ var cars =[["BMW","X5","2021"],["Suzuki","Beleno","2022"],["Ferarri","G600","202
 
 document.getElementById("btnArrayToArray").addEventListener("click", function () {
     debugger;
-    var inputIndex=document.getElementById("txtCarName").value;
-    var secondIndex=document.getElementById("txtModel").value;
+   
 var content = "";
 
     for (var i = 0; i < cars.length; i++) {
-      {
-            content = content + "<p>"+ (i+1) +" " + cars[i] + "</p>";
-        }
-    }
 
-    document.getElementById("divResult").innerHTML = content;
-    document.getElementById("pResult").innerHTML=cars[inputIndex][secondIndex];
+    content = content + "<p>" + 
+          (i+1) + "."+
+        "Name of the car is " + cars[i][0] + 
+        " and model is " + cars[i][1] + 
+        " and year of manufacturing is " + cars[i][2] + 
+    "</p>";
+
+}
+    document.getElementById("pResult").innerHTML = content;
 
 
 });
