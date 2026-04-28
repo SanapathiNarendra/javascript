@@ -10,7 +10,8 @@ var content = "";
     for (var i = 0; i < cars.length; i++) {
 
     content = content + "<p>" + 
-          (i+1) + "."+
+    
+    (i+1) + "."+
         "Name of the car is " + cars[i][0] + 
         " and model is " + cars[i][1] + 
         " and year of manufacturing is " + cars[i][2] + 
