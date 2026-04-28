@@ -6,6 +6,7 @@ document.getElementById("btnArrayToArray").addEventListener("click", function ()
     debugger;
    
 var content = "";
+var content = "";
 
     for (var i = 0; i < cars.length; i++) {
 
