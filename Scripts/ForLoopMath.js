@@ -1,18 +1,9 @@
-document.getElementById("btnSubmit").addEventListener("click",function(){
-    debugger;
-    var number=Number(document.getElementById("txtNumber").value);
-    for (i=1; i<=number; i++){
-debugger;
-console.log(i*i*i)
-    }
-});
-
 document.getElementById("btnEven").addEventListener("click",function(){
     debugger;
     var number=Number(document.getElementById("txtNumber").value);
     for (i=1; i<=number; i++){
 debugger;
-console.log(i*i)
+console.log(i)
     }
 });
 
@@ -49,6 +40,6 @@ document.getElementById("btnNumberPrinter").addEventListener("click",function(){
     var number=Number(document.getElementById("txtNumber").value);
     for (i=1; i<=number; i++){
 debugger;
-console.log(i*i*i)
+console.log(i)
     }
 });
