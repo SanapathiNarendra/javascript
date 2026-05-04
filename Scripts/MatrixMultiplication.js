@@ -1,23 +1,20 @@
 
-document.getElementById("btnMatrix").addEventListener("click",function(){
+document.getElementById("btnMatrix").addEventListener("click", function () {
     debugger;
- var matrixA=[[1,2,3],[4,5,6],[7,8,9]];
- var matrixB=[[11,12,13],[14,15,16],[17,18,19]];
- var result=[];
+    var matrix = [[1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]];
 
- for(var i=0;i<matrixA.length;i++){     
+      var input = Number(document.getElementById("inputNumber").value);
+    var result = " ";
 
-     result[i]=[];
-     for(var j=0;j<matrixA[i].length;j++){
-        result[i][j]=0;
-        
-        for(var k=0;k<matrixA[i].length;k++){
-            result[i][j]+=matrixA[i][k]*matrixB[k][j];
+    for (var i = 0; i < matrix.length; i++) {
+        for (var j = 0; j < matrix[i].length; j++) {
+            result += matrix[i][j] * input + " "
         }
+        result += "<br>"
+
     }
-
-
- }
-console.log(result);
+    document.getElementById("pResult").innerHTML = result;
 
 });
