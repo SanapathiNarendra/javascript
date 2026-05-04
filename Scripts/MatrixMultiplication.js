@@ -10,10 +10,13 @@ document.getElementById("btnMatrix").addEventListener("click",function(){
      result[i]=[];
      for(var j=0;j<matrixA[i].length;j++){
         result[i][j]=0;
+        
         for(var k=0;k<matrixA[i].length;k++){
             result[i][j]+=matrixA[i][k]*matrixB[k][j];
         }
     }
+
+
  }
 console.log(result);
 
