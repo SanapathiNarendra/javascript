@@ -9,10 +9,12 @@ document.getElementById("btnMatrix").addEventListener("click", function () {
     var result = " ";
 
     for (var i = 0; i < matrix.length; i++) {
+        
         for (var j = 0; j < matrix[i].length; j++) {
             result += matrix[i][j] * input + " "
         }
         result += "<br>"
+
 
     }
     document.getElementById("pResult").innerHTML = result;
