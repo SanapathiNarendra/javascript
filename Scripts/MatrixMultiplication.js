@@ -9,7 +9,7 @@ document.getElementById("btnMatrix").addEventListener("click", function () {
       
     var result = " ";
 
-
+    
     for (var i = 0; i < matrix.length; i++) {
 
         for (var j = 0; j < matrix[i].length; j++) {
@@ -19,6 +19,6 @@ document.getElementById("btnMatrix").addEventListener("click", function () {
 
 
     }
-    document.getElementById("").innerHTML = result;
+    document.getElementById("pResult").innerHTML = result;
 
 });
