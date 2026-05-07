@@ -12,6 +12,7 @@ function OnclickArrayOfIndex(){
       content="";
     document.getElementById("txtInput").value="";
 }
+
 function onClickSearch(){
     debugger;
     var inputBox=document.getElementById("txtSearch").value;
