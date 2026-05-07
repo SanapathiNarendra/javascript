@@ -14,7 +14,6 @@ function OnclickArrayOfIndex(){
 }
 
 function onClickSearch(){
-    debugger;
     var inputBox=document.getElementById("txtSearch").value;
     document.getElementById("pSearch").innerHTML=
     `${inputBox} is at ${cars.indexOf(inputBox)}index`;
