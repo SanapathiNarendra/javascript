@@ -5,7 +5,6 @@ function OnclickArrayOfIndex(){
     var input=document.getElementById("txtInput").value;
 
     cars.push(input);
-
     for(i=0;i<cars.length;i++){
         content= content+"<p>"+(i+1)+"."+cars[i]+"</p><br>"  
       }
