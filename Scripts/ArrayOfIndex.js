@@ -19,3 +19,4 @@ function onClickSearch(){
     document.getElementById("pSearch").innerHTML=
     `${inputBox} is at ${cars.indexOf(inputBox)}index`;
 }
+
