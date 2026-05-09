@@ -1,18 +1,17 @@
-    var colors=["Red","Green","Blue","orange","Red","Maroon","Yellow","Pink","Purple"];
+var colors = ["Red", "Green", "Blue", "orange", "Red", "Maroon", "Yellow", "Pink", "Green"];
 
-    var array = document.getElementById("arrayResult");
+var array = document.getElementById("arrayResult");
 
-    for(let  i=0;i<=colors.length-1;i++){
-          array.innerHTML += colors[i] + ",";
-    }
+for (let i = 0; i <= colors.length - 1; i++) {
+    array.innerHTML += colors[i] + ",";
+}
 
-function onclickLastIndexOf(){
-  
-    var input=document.getElementById("txtLastIndexOf").value;
+function onclickLastIndexOf() {
 
-    var result=colors.lastIndexOf(input);
-  
-    document.getElementById("pResult").innerHTML=result;
+    var input = document.getElementById("txtLastIndexOf").value;
 
-    
+    var result = colors.lastIndexOf(input);
+
+    document.getElementById("pResult").innerHTML = result;
+
 }
