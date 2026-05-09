@@ -1,9 +1,9 @@
 let birds = ["Parrot", "Pigeon", "Sparrow", "Crow", "Peacock", "Hen", "Cock", "Duck", "Swan", "Eagle"];
 
-let arrayResult = document.getElementById("birdsArrayDisplay");
+let birdsArrayDisplay = document.getElementById("birdsArrayDisplay");
 
-for (let i = 0; i < birds.length - 1; i++) {
-    arrayResult.innerHTML += birds[i] + ", ";
+for (let i = 0; i < birds.length; i++) {
+    birdsArrayDisplay.innerHTML += birds[i] + ", ";
 }
 
 function checkBirdAvailability() {
