@@ -6,3 +6,12 @@ for (let i = 0; i < birds.length - 1; i++) {
     arrayResult.innerHTML += birds[i] + ", ";
 }
 
+function checkBirdAvailability() {
+
+    let enteredBirdName = document.getElementById("txtBirdName").value;
+
+    let isBirdAvailable = birds.includes(enteredBirdName);
+
+    document.getElementById("pIncludesResult").innerHTML =
+        "Bird Exists : " + isBirdAvailable;
+}
