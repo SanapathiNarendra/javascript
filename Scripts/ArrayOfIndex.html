@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array of index</title>
-    <script src="ArrayOfIndex.js"> </script>
+
+    <title>Array Index Search</title>
+
+    <script src="ArrayOfIndex.js" defer></script>
 </head>
+
 <body>
-    <label></label>
-    <input type="text" id="txtInput">
-    <button id="btnAdd" onclick="OnclickArrayOfIndex()" >Add</button>
+
+    <h2>Car Array</h2>
+
+    <label for="txtInput">Enter Car Name:</label>
+
+    <input type="text" id="txtInput" placeholder="Add a car">
+
+    <button type="button" id="btnAdd" onclick="OnclickArrayOfIndex()">
+        Add
+    </button>
+
     <p id="pResult"></p>
-    <label>Search</label>     
-    <input id="txtSearch" type="text">
-    <button id="btnSearch" onclick="onClickSearch()">Search</button>
+
+    <hr>
+
+    <label for="txtSearch">Search Car:</label>
+
+    <input id="txtSearch" type="text" placeholder="Search car name">
+
+    <button type="button" id="btnSearch" onclick="onClickSearch()">
+        Search
+    </button>
+
     <p id="pSearch"></p>
-    
+
 </body>
+
 </html>
