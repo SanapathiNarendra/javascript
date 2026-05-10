@@ -2,20 +2,30 @@
 <html lang="en">
 
 <head>
-    <title>Array Includes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Array Includes Example</title>
+
     <script src="ArrayIncludes.js" defer></script>
 </head>
 
 <body>
-    <h3>Birds Array :</h3>
+
+    <h2>Birds Array</h2>
+
     <p id="birdsArrayDisplay"></p>
 
-    <label id="lblBirdName">Bird Name</label>
-    <input id="txtBirdName" type="text">
+    <label for="txtBirdName">Bird Name:</label>
 
-    <button id="btnIncludes" onclick="checkBirdAvailability()">Includes</button>
+    <input id="txtBirdName" type="text" placeholder="Enter bird name">
+
+    <button type="button" id="btnIncludes" onclick="checkBirdAvailability()">
+        Check Availability
+    </button>
 
     <p id="pIncludesResult"></p>
+
 </body>
 
 </html>
