@@ -1,22 +1,36 @@
-var cars=[];
-var content="";
-function OnclickArrayOfIndex(){
-    debugger;
-    var input=document.getElementById("txtInput").value;
+var cars = [];
+
+function OnclickArrayOfIndex() {
+
+    var input = document.getElementById("txtInput").value.trim();
+
+    if (input === "") {
+        return;
+    }
 
     cars.push(input);
-    for(i=0;i<cars.length;i++){
-        content= content+"<p>"+(i+1)+"."+cars[i]+"</p><br>"  
-      }
-      document.getElementById("pResult").innerHTML=content;
-      content="";
-    document.getElementById("txtInput").value="";
+
+    let content = "";
+
+    for (let i = 0; i < cars.length; i++) {
+        content += `<p>${i + 1}. ${cars[i]}</p>`;
+    }
+
+    document.getElementById("pResult").innerHTML = content;
+
+    document.getElementById("txtInput").value = "";
 }
 
-function onClickSearch(){
-    
-    var inputBox=document.getElementById("txtSearch").value;
-    document.getElementById("pSearch").innerHTML=
-    `${inputBox} is at ${cars.indexOf(inputBox)}index`;
-}
+function onClickSearch() {
 
+    var inputBox = document.getElementById("txtSearch").value.trim();
+
+    var index = cars
+        .map(car => car.toLowerCase())
+        .indexOf(inputBox.toLowerCase());
+
+    document.getElementById("pSearch").innerHTML =
+        index === -1
+            ? `${inputBox} not found`
+            : `${inputBox} is at index ${index}`;
+}
