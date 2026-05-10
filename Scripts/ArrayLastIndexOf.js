@@ -1,17 +1,17 @@
-var colors = ["Red", "Green", "Blue", "orange", "Red", "Maroon", "Yellow", "Pink", "Green"];
+var colors = ["Red", "Green", "Blue", "Orange", "Red", "Maroon", "Yellow", "Pink", "Green"];
 
 var array = document.getElementById("arrayResult");
 
-for (let i = 0; i <= colors.length - 1; i++) {
-    array.innerHTML += colors[i] + ",";
-}
+array.innerHTML = colors.join(", ");
 
 function onclickLastIndexOf() {
 
-    var input = document.getElementById("txtLastIndexOf").value;
+    var input = document.getElementById("txtLastIndexOf").value.trim();
 
-    var result = colors.lastIndexOf(input);
+    var result = colors
+        .map(color => color.toLowerCase())
+        .lastIndexOf(input.toLowerCase());
 
-    document.getElementById("pResult").innerHTML = result;
-
+    document.getElementById("pResult").innerHTML =
+        "Last Index : " + result;
 }

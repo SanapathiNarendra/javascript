@@ -8,7 +8,6 @@ function checkBirdAvailability() {
 
     let enteredBirdName = document.getElementById("txtBirdName").value.trim();
 
-    // Case-insensitive checking
     let isBirdAvailable = birds.some(
         bird => bird.toLowerCase() === enteredBirdName.toLowerCase()
     );
