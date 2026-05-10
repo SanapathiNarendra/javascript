@@ -2,15 +2,16 @@ let birds = ["Parrot", "Pigeon", "Sparrow", "Crow", "Peacock", "Hen", "Cock", "D
 
 let birdsArrayDisplay = document.getElementById("birdsArrayDisplay");
 
-for (let i = 0; i < birds.length; i++) {
-    birdsArrayDisplay.innerHTML += birds[i] + ", ";
-}
+birdsArrayDisplay.innerHTML = birds.join(", ");
 
 function checkBirdAvailability() {
 
-    let enteredBirdName = document.getElementById("txtBirdName").value;
+    let enteredBirdName = document.getElementById("txtBirdName").value.trim();
 
-    let isBirdAvailable = birds.includes(enteredBirdName);
+    // Case-insensitive checking
+    let isBirdAvailable = birds.some(
+        bird => bird.toLowerCase() === enteredBirdName.toLowerCase()
+    );
 
     document.getElementById("pIncludesResult").innerHTML =
         "Bird Exists : " + isBirdAvailable;
