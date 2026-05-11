@@ -8,6 +8,7 @@ function OnclickArrayOfIndex() {
         return;
     }
 
+    
     cars.push(input);
 
     let content = "";
