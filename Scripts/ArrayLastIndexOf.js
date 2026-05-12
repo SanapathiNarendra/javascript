@@ -9,7 +9,9 @@ function onclickLastIndexOf() {
     var input = document.getElementById("txtLastIndexOf").value.trim();
 
     var result = colors
+    
         .map(color => color.toLowerCase())
+
         .lastIndexOf(input.toLowerCase());
 
     document.getElementById("pResult").innerHTML =
