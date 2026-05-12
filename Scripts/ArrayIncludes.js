@@ -5,6 +5,7 @@ let birdsArrayDisplay = document.getElementById("birdsArrayDisplay");
 birdsArrayDisplay.innerHTML = birds.join(",");
 
 function checkBirdAvailability() {
+    
 
     let enteredBirdName = document.getElementById("txtBirdName").value.trim();
 
