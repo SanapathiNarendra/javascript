@@ -10,6 +10,7 @@ function onclickLastIndexOf() {
 
     var result = colors
     
+    
         .map(color => color.toLowerCase())
 
         .lastIndexOf(input.toLowerCase());
