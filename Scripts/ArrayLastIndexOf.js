@@ -1,10 +1,11 @@
-var colors = ["Red", "Green", "Blue", "Orange", "Red", "Maroon", "Yellow", "Pink", "Green"];
+var colors = ["Red", "Green", "Blue", "Orange", "Red", "Maroon", "Yellow", "Pink", "Green","Maroon"];
 
 var array = document.getElementById("arrayResult");
 
 array.innerHTML = colors.join(", ");
 
 function onclickLastIndexOf() {
+
 
     var input = document.getElementById("txtLastIndexOf").value.trim();
 
