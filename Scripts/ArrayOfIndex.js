@@ -24,6 +24,7 @@ function OnclickArrayOfIndex() {
 
 function onClickSearch() {
 
+    
     var inputBox = document.getElementById("txtSearch").value.trim();
 
     var index = cars
