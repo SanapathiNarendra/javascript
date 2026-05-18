@@ -13,7 +13,11 @@ function OnclickStringSorting() {
     document.getElementById("txtInputWord").value="";  
 }
 
+
+
 function sortAlphabeticalOrder(){
+
+    
     var content="";
     alphabeticalOrder.sort();
     for (i=0; i<alphabeticalOrder.length; i++){
