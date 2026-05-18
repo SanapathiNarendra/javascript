@@ -1,27 +1,33 @@
-var alphabeticalOrder= [];
+var alphabeticalOrder = [];
 
 function OnclickStringSorting() {
-   var content="";
-    var inputWord= document.getElementById("txtInputWord").value;
-    alphabeticalOrder.push(inputWord);
-    for (i=0; i<alphabeticalOrder.length; i++){
-        content =content+"<p>" + (i+1) +"." +alphabeticalOrder [i] +"</p><br>";
+
+    var inputWord = document.getElementById("txtInputWord").value;
+
+    if (inputWord !== "") {
+        alphabeticalOrder.push(inputWord);
     }
 
-    document.getElementById("pResult").innerHTML= content;
+    displayWords();
 
-    document.getElementById("txtInputWord").value="";  
+    document.getElementById("txtInputWord").value = "";
 }
 
+function sortAlphabeticalOrder() {
 
-
-function sortAlphabeticalOrder(){
-
-    
-    var content="";
     alphabeticalOrder.sort();
-    for (i=0; i<alphabeticalOrder.length; i++){
-        content =content+"<p>" + (i+1) +"." +alphabeticalOrder [i] +"</p><br>";
+
+    displayWords();
+}
+
+function displayWords() {
+
+    var content = "";
+
+    for (let i = 0; i < alphabeticalOrder.length; i++) {
+
+        content += "<p>" + (i + 1) + ". " + alphabeticalOrder[i] + "</p>";
     }
-    document.getElementById("pResult").innerHTML= content;
+
+    document.getElementById("pResult").innerHTML = content;
 }
