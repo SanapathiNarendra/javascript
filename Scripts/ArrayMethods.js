@@ -3,5 +3,10 @@ let fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya", "Kiwi", "Jack frui
 displayArray();
 
 function displayArray() {
-    document.getElementById("pResult").innerHTML = fruits;
+    document.getElementById("result").innerHTML = fruits;
+}
+
+function arrayLength() {
+    document.getElementById("pResult").innerHTML =
+        "Array Length : " + fruits.length;
 }
