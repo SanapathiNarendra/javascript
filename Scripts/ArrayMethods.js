@@ -17,6 +17,17 @@ function arrayToString() {
 }
 
 function arrayAt() {
+
+    let index = document.getElementById("txtIndex").value;
+
     document.getElementById("pResult").innerHTML =
-        "at(1) : " + fruits.at(1);
+        "at index(" + index + ") : " + fruits.at(index);
+}
+
+function arrayJoin() {
+
+    let input = document.getElementById("txtValue").value;
+
+    document.getElementById("pResult").innerHTML =
+        "join() : " + fruits.join(input);
 }
