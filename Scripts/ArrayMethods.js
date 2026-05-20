@@ -15,3 +15,8 @@ function arrayToString() {
     document.getElementById("pResult").innerHTML =
         "toString() : " + fruits.toString();
 }
+
+function arrayAt() {
+    document.getElementById("pResult").innerHTML =
+        "at(1) : " + fruits.at(1);
+}
