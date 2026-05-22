@@ -6,7 +6,7 @@ function displayArray() {
     document.getElementById("result").innerHTML = "[" + fruits + "]";
 }
 
-function arrayLength() {
+function arrayLength() {`   `
     document.getElementById("pResult").innerHTML =
         "Array Length : " + fruits.length;
 }
