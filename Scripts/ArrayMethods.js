@@ -39,3 +39,15 @@ function arrayPop() {
         "Removed : " + removed +
         "<br>Array : " + fruits;
 }
+
+function arrayPush() {
+    let value = document.getElementById("txtValue").value;
+
+    fruits.push(value);
+
+    document.getElementById("pResult").innerHTML =
+        "Added : " + value +
+        "<br>Array : " + fruits;
+
+    document.getElementById("txtValue").value = "";
+}
