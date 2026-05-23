@@ -51,3 +51,11 @@ function arrayPush() {
 
     document.getElementById("txtValue").value = "";
 }
+
+function arrayShift() {
+    let removed = fruits.shift();
+
+    document.getElementById("pResult").innerHTML =
+        "Removed First : " + removed +
+        "<br>Array : " + fruits;
+}
