@@ -59,3 +59,15 @@ function arrayShift() {
         "Removed First : " + removed +
         "<br>Array : " + fruits;
 }
+
+function arrayUnshift() {
+    let value = document.getElementById("txtValue").value;
+
+    fruits.unshift(value);
+
+    document.getElementById("pResult").innerHTML =
+        "Added First : " + value +
+        "<br>Array : " + fruits;
+
+    document.getElementById("txtValue").value = "";
+}
