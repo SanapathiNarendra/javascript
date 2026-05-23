@@ -31,3 +31,11 @@ function arrayJoin() {
     document.getElementById("pResult").innerHTML =
         "join() : " + fruits.join(input);
 }
+
+function arrayPop() {
+    let removed = fruits.pop();
+
+    document.getElementById("pResult").innerHTML =
+        "Removed : " + removed +
+        "<br>Array : " + fruits;
+}
