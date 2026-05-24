@@ -6,7 +6,7 @@ function ShowArray() {
 
     let content = " ";
 
-    Numbers.shift(inputValue);
+    Numbers.push(inputValue);
     for (let i = 0; i < Numbers.length; i++) {
 
         content = content + "<p>" + (i + 1) + "." + Numbers[i] + "</P>";
