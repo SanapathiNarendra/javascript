@@ -1,15 +1,28 @@
- let Numbers=[12,13,26,27,29,30,31,32,33,34,35]
- displayArray();
-function  SumOfArray(){
-   debugger;
+let Numbers = [];
 
-       var content = "";
+function ShowArray() {
 
-    for (var i = 0; i < Numbers.length; i++) {
-      {
-            content = content + "<p>"+ (i+1) +" " + Numbers[i] + "</p>";
-        }
+    var inputValue = Number(document.getElementById("txtNumber").value);
+
+    let content = " ";
+
+    Numbers.shift(inputValue);
+    for (let i = 0; i < Numbers.length; i++) {
+
+        content = content + "<p>" + (i + 1) + "." + Numbers[i] + "</P>";
+
     }
+    document.getElementById("arrayResult").innerHTML = content;
+}
 
-    document.getElementById("pResult").innerHTML = content;
+function ArraySum() {
+
+    var sum = 0;
+    debugger;
+    for (let i = 0; i < Numbers.length; i++) {
+
+        sum = sum + Numbers[i];
+
+    }
+    document.getElementById("arraySum").innerHTML = sum;
 }
