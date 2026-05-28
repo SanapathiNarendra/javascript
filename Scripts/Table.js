@@ -6,7 +6,9 @@ function ShowTable() {
 
     for (let i = 1; i <= 17; i++) {
 
-        output = output + number + " x " + i + " = " + (number * i) + "<br>";
+
+
+        output = output + number + " + " + i + " = " + (number * i) + "<br>";
 
     }
 
