@@ -1,12 +1,14 @@
 function ShowTable() {
 
     var number = Number(document.getElementById("txtNumber").value);
-
+                                                                    
     var output = "";
 
     for (let i = 1; i <= 17; i++) {
 
-        output = output + number + " + " + i + " = " + (number * i) + "<br>";
+        output = output + number + " * " + i + " = " + (number * i) + "<br>";
+        
+    
     }
 
     
