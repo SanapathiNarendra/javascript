@@ -4,7 +4,7 @@ function ShowTable() {
                                                                     
     var output = "";
 
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 20; i++) {
 
         output = output + number + " * " + i + " = " + (number * i) + "<br>";
     
