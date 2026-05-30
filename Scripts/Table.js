@@ -9,7 +9,6 @@ function ShowTable() {
         output = output + number + " * " + i + " = " + (number * i) + "<br>";
     
     }
-
-    
     document.getElementById("result").innerHTML = output;
+    
 }
