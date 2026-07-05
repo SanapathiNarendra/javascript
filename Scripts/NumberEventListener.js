@@ -1,6 +1,6 @@
 document.getElementById("btnNumber").addEventListener("Click",function(){
     debugger;
-    var result= Number(document.getElementById("txtValue").value);
+    var result= Number(document.getElementById("txtValue").value);           
       document.getElementById("pResult").innerHTML=result;
 });
 

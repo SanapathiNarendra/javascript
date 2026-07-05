@@ -3,6 +3,7 @@ function onClickNumberfunction(){
     var result= Number(document.getElementById("txtValue").value);
       document.getElementById("pResult").innerHTML=result;
 }
+
  document.getElementById("pDemo").innerHTML = 
   Number("-10") + "<br>" +
   Number("-10.33") + "<br>" +
