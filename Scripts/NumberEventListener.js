@@ -1,7 +1,8 @@
 document.getElementById("btnNumber").addEventListener("Click",function(){
     debugger;
     var result= Number(document.getElementById("txtValue").value);           
-      document.getElementById("pResult").innerHTML=result;
+      document.getElementById("pResult").innerHTML=result;           
+      
 });
 
  document.getElementById("pDemo").innerHTML =
