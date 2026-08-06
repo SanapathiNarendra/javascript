@@ -1,4 +1,5 @@
 function onClickToFixed (){
+   Fe
    debugger;
    var decimalValue = Number(document.getElementById("txtDecimalValue").value);
    var fixedValue = Number(document.getElementById("txtFixedValue").value);
