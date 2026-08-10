@@ -1,4 +1,3 @@
-
 function onClickParseINTChecker(){
    debugger;
    var result=parseInt(document.getElementById("txtValue").value);
