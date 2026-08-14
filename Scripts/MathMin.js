@@ -1,5 +1,5 @@
 function onClickFindMinValue(){
-      debugger;
+     debugger;
     var digits=Number(document.getElementById("txtDigits").value);
     var value1=Math.pow(10,digits)+ Math.random();
     var value2=Math.pow(10,digits)+ Math.random();
