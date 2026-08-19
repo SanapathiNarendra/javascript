@@ -6,7 +6,7 @@
     <title>Average Calculator</title>
     <script src="Average.js"></script>
     <link rel="stylesheet" href="styles.css">
-   
+
 </head>
 <body>
     <div class="averagebox">
