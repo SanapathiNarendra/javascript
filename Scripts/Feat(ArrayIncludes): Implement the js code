@@ -2,6 +2,7 @@ let birds = ["Parrot", "Pigeon", "Sparrow", "Crow", "Peacock", "Hen", "Cock", "D
 
 let birdsArrayDisplay = document.getElementById("birdsArrayDisplay");
 
+
 birdsArrayDisplay.innerHTML = birds.join(",");
 
 function checkBirdAvailability() {
