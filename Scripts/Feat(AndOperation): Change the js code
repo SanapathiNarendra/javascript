@@ -1,7 +1,5 @@
 document.getElementById("btnAndOperation").addEventListener("click",function()
-{
-    
-
+{  
 debugger;
 
    var inputNumber=Number(document.getElementById("txtInputNumber").value);
