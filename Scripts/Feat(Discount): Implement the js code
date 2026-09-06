@@ -1,5 +1,4 @@
 function onClickSellingprice(){
-    
     debugger;
     price=(document.getElementById ("txtprice").value);
     discountPercentage=(document.getElementById("txtdiscount").value);
