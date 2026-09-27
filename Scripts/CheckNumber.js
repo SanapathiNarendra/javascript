@@ -1,4 +1,5 @@
 function onClickCheckNumber(){
+    
     debugger;
     var inputNumber=Number(document.getElementById("txtInputNumber").value);
     if(inputNumber > 0){
