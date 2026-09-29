@@ -3,6 +3,7 @@ var ColorNames = ["Black", "Red", "Green", "Blue", "Yellow","Gray"];
 document.getElementById("btnForLoop").addEventListener("click", function () {
     debugger;
     var content = "";
+    
 
     for (var i = 0; i < ColorNames.length; i++) {
       {
